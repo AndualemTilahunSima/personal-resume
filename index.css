@@ -1,0 +1,15 @@
+.sidebar {
+    background-color: #f4f4f4;
+    padding-left: 20px;
+}
+
+#sidebar__photo{
+    padding-top: 10px;
+}
+#resume_photo{
+    
+}
+
+li {
+    list-style: none;
+}
