@@ -1,15 +1,81 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4d5460;
+    padding: 0rem;
+}
+
+.resume {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
 .sidebar {
-    background-color: #f4f4f4;
-    padding-left: 20px;
+    background-color: #323b4c;
+    padding-left: 1.2rem;
+    color: #ffffff;
 }
 
-#sidebar__photo{
-    padding-top: 10px;
-}
-#resume_photo{
-    
+.sidebar__photo {
+    padding-top: 0.8rem;
+    display: flex;
+    justify-content: center;
 }
 
-li {
+.sidebar__profile {
+    width: 8.12rem;
+    height: 8.12rem;
+    border-radius: 50%;
+    background-color: #3c4d6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar__profile img {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+}
+
+.sidebar h4 {
+    margin-bottom: 0rem;
+}
+
+span {
+    margin-left: 0.5rem;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.sidebar ul {
+    padding-left: 0rem;
+}
+
+span {
+    color: #ffffff;
+}
+
+ul li {
     list-style: none;
+    margin-bottom: 0.8rem;
+
+}
+
+.sidebar__contact ul li {
+    display: flex;
+}
+
+.sidebar__skills ul{
+    padding-left: 1rem;
+}
+
+.sidebar__skills ul li {
+    list-style: square;
 }

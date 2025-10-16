@@ -3,37 +3,103 @@
 <head>
     <link rel="stylesheet" href="index.css">
     <title>Personal Resume</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
-    <div class="resume">
+    <main class="resume">
         <div class="sidebar">
-            <div id="sidebar__photo">
-                <img id="resume_photo"/>
+            <div class="sidebar__photo">
+                <div class="sidebar__profile">
+                    <img src="./images/profile.png" alt="User Profile">
+                </div>
+                <img />
             </div>
-            <div id="sidebar__contact">
+            <div class="sidebar__contact">
                 <h4>Contact</h4>
+                <hr />
                 <ul>
                     <li>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>hello@reallygreatsite.com</span>
                     </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>+123-456-7890</span>
+                    </li>
+                    <li>
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>123 Anywhere St., Any City</span>
+                    </li>
+                    <li>
+                        <ion-icon name="globe-outline"></ion-icon>
+                        <span>reallygreatsite.com</span>
+                    </li>
                 </ul>
             </div>
             <div id="sidebar__education">
                 <h4>Education</h4>
+                <hr />
+                <ul>
+                    <li>
+                        <span>Master Of Bussiness</span><br />
+                        <span>Wardiere University</span><br />
+                        <span>
+                            <sm>2011-2015</sm>
+                        </span><br />
+                    </li>
+                    <li>
+                        <span>Master Of Bussiness</span><br />
+                        <span>Wardiere University</span><br />
+                        <span>2011-2015</span><br />
+                    </li>
+                </ul>
             </div>
-            <div id="sidebar__skills">
+            <div class="sidebar__skills">
                 <h4>Skills</h4>
+                <hr />
+                <ul>
+                    <li>
+                        ROI Calculations
+                    </li>
+                    <li>
+                        Social media marketing
+                    </li>
+                    <li>
+                        Product development lifecycle
+                    </li>
+                    <li>
+                        Marketing strategy
+                    </li>
+                    <li>
+                        Product promotion
+                    </li>
+                    <li>
+                        Value propositions
+                    </li>
+                </ul>
             </div>
-            <div id="sidebar__languages">
+            <div class="sidebar__languages">
                 <h4>Languages</h4>
+                <hr />
+                <ul>
+                     <li>
+                        English
+                    </li>
+                    <li>
+                        French
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="main">
+            <div class="main__header">
+                <h3>Andualem Tilahun</h3>
+                <h7>Software Engineer</h7>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
