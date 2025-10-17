@@ -2,20 +2,20 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #4d5460;
-    padding: 0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .resume {
-    width: 100vw;
-    height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1.3fr 4fr;
+    /* overflow-y: auto; */
 }
 
 .sidebar {
     background-color: #323b4c;
     padding-left: 1.2rem;
     color: #ffffff;
+    height: inherit;
 }
 
 .sidebar__photo {
@@ -25,8 +25,8 @@ body {
 }
 
 .sidebar__profile {
-    width: 8.12rem;
-    height: 8.12rem;
+    width: 9.12rem;
+    height: 9.12rem;
     border-radius: 50%;
     background-color: #3c4d6a;
     display: flex;
@@ -35,8 +35,8 @@ body {
 }
 
 .sidebar__profile img {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 7.25rem;
+    height: 7.25rem;
     border-radius: 50%;
 }
 
@@ -46,20 +46,11 @@ body {
 
 span {
     margin-left: 0.5rem;
-}
-
-.main {
-    width: 100%;
-    height: 100%;
-    background-color: white;
+    color: #ffffff;
 }
 
 .sidebar ul {
     padding-left: 0rem;
-}
-
-span {
-    color: #ffffff;
 }
 
 ul li {
@@ -70,12 +61,75 @@ ul li {
 
 .sidebar__contact ul li {
     display: flex;
+    font-size: small;
 }
 
-.sidebar__skills ul{
+.sidebar__skills ul {
     padding-left: 1rem;
 }
 
 .sidebar__skills ul li {
     list-style: square;
+    font-size: small;
+}
+
+hr {
+    border: 0.5px solid white;
+}
+
+.main {
+    background-color: white;
+    padding-left: 1.2rem;
+    padding-top: 3rem;
+    padding-right: 1.2rem;
+}
+
+.main__header h1,
+h5 {
+    margin: 0rem;
+}
+
+.main__about {
+    margin-top: 4rem;
+}
+
+main hr {
+    border: 1px solid gray;
+}
+
+.employment__history span {
+    color: gray;
+    margin-left: 0rem;
+}
+
+.employment__history h4 {
+    font-weight: normal;
+    margin-top: 0.5rem;
+}
+
+.employment__history ul {
+    padding-left: 1rem;
+    margin-bottom: 0rem;
+}
+
+.employment__history ul li {
+    list-style: square;
+    font-size: small;
+}
+
+.reference__lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reference__item h4 {
+    margin: 0rem;
+    margin-bottom: 0.25rem;
+    /* small gap under name */
+}
+
+.reference__item span {
+    color: gray;
+    margin: 0rem;
 }
